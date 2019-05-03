@@ -1,4 +1,4 @@
-package com.nimich.spring;
+package com.nimich.alishev_lessons.spring;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

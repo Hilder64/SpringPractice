@@ -1,6 +1,5 @@
-package com.nimich.spring;
+package com.nimich.alishev_lessons.spring;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MusicPlayer {

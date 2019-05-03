@@ -1,4 +1,4 @@
-package com.nimich.spring;
+package com.nimich.alishev_lessons.spring;
 
 public class ClassicalMusic implements Music {
     @Override

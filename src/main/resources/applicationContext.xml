@@ -9,19 +9,19 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="classicalMusic"
-          class="com.nimich.spring.ClassicalMusic">
+          class="com.nimich.alishev_lessons.spring.ClassicalMusic">
     </bean>
 
     <bean id="electronicMusic"
-          class="com.nimich.spring.ElectronicDanceMusic">
+          class="com.nimich.alishev_lessons.spring.ElectronicDanceMusic">
     </bean>
 
     <bean id="rockMusic"
-          class="com.nimich.spring.RockMusic">
+          class="com.nimich.alishev_lessons.spring.RockMusic">
     </bean>
 
     <bean id="musicPlayer"
-          class="com.nimich.spring.MusicPlayer">
+          class="com.nimich.alishev_lessons.spring.MusicPlayer">
         <property name="musicList">
             <list>
                 <ref bean="classicalMusic"/>
